@@ -48,3 +48,5 @@
 #include "FreeSerifItalic9pt7b.h"
 #include "TomThumb.h"
 #include "OGMono5x7.h"
+#include "Org_01.h"
+#include "Picopixel.h"
