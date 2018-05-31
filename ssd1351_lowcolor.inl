@@ -4,7 +4,9 @@
 MEMBER_REQUIRES(std::is_same<C, LowColor>::value)
 void setColorDepth() {
 	sendCommandAndContinue(CMD_REMAP);
-	sendDataAndContinue(0x74);
+	//sendDataAndContinue(0x74);
+	//sendDataAndContinue(0x30);
+	sendDataAndContinue(0b01110100);
 }
 
 // push color for Low color mode
